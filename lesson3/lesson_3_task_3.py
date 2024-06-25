@@ -8,4 +8,5 @@ from_address = Address("654321", "Г. Волгоград", "ул. Космона
 
 sending = Mailing(to_address, from_address, 1674, "9876456342")
 
-print("Отправление",sending.t,"из",sending.fr.str_address(),"в",sending.to.str_address(),". Стоимость",sending.c,"рублей.")
+print("Отправление", sending.t, "из", sending.fr.str_address(), "в",
+      sending.to.str_address(), ". Стоимость", sending.c, "рублей.")
